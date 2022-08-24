@@ -36,9 +36,7 @@ class AvatarController {
         }
     }
 
-    async deleteAvatar(req: Request, res: Response){
-        
-    }
+    // async deleteAvatar(req: Request, res: Response) {}
 }
 
 export default AvatarController

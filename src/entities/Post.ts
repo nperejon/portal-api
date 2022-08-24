@@ -1,4 +1,5 @@
-import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, Unique, OneToOne, JoinColumn, RelationId, ManyToOne } from 'typeorm'
+import { Entity, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, Unique, 
+    Column, ManyToOne } from 'typeorm'
 import { Length, IsNotEmpty } from "class-validator";
 import { User } from './User';
 
@@ -30,7 +31,7 @@ export class Post {
     })
     tags: string[];
 
-    @ManyToOne(type => User, user => user.posts)
+    @ManyToOne(() => User, user => user.posts)
     author: User;
 
     @CreateDateColumn({type: "timestamp"})

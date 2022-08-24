@@ -27,8 +27,8 @@ class AuthController {
         }catch(err){
             return res.status(400).send({ error: 'An error has ocurred' });
         }
-    };
-
+    }
+    
 //   static changePassword = async (req: Request, res: Response) => {
 //     //Get ID from JWT
 //     const id = res.locals.jwtPayload.userId;

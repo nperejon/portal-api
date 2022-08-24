@@ -38,9 +38,7 @@ class PostController {
         }
     }
 
-    async findById(req: Request, res: Response){
-
-    }
+    // async findById(req: Request, res: Response){}
 
     async create(req: Request, res: Response){
         const authorizedUser: IAuthorizedUser = res.locals.authorizedUser
@@ -60,9 +58,7 @@ class PostController {
         }
     }
 
-    async delete(req: Request, res: Response){
-        
-    }
+    // async delete(req: Request, res: Response){}
 }
 
 export default PostController

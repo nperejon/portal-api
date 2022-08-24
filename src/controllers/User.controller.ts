@@ -3,7 +3,6 @@ import { getRepository } from 'typeorm'
 import { User } from 'src/entities/User'
 import { validate } from 'class-validator';
 import IAuthorizedUser from '../interfaces/AuthorizedUser.interface'
-import { Post } from '@entities/Post';
 
 class UserController {
     async list(req: Request, res: Response) {
