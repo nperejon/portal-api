@@ -23,7 +23,7 @@ class AvatarController {
         const uploadImage = req.file
         try{
             if(uploadImage.filename.length > 50) {
-                await unlink(uploadImage.path, (err) => console.log(err))
+                unlink(uploadImage.path, (err) => console.log(err))
                 return res.status(500).send({ error: 'Image name is too large' })
             }
 
