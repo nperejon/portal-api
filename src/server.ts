@@ -2,8 +2,9 @@ import App from './app';
 import express from 'express'
 import cors from 'cors'
 import routes from './routes'
-import '@database/connection'
+import { AppDataSource } from './ormconfig';
 
+AppDataSource.initialize().then(() => console.log("Banco de dados conectado"))
 const middlewares = [
     cors(),
     express.json(),

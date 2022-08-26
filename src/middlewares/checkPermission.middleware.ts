@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import { getRepository } from "typeorm";
 
-import { User } from "@entities/User";
+import { User } from "@database/entities/User.entity";
 
 export const checkPermission = async (req: Request, res: Response, next: NextFunction) => {
     const id = res.locals.authorizedUser.id;

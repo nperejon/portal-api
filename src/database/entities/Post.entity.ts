@@ -1,7 +1,7 @@
 import { Entity, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, Unique, 
     Column, ManyToOne } from 'typeorm'
 import { Length, IsNotEmpty } from "class-validator";
-import { User } from './User';
+import { User } from './User.entity';
 
 @Entity()
 @Unique(["title"])

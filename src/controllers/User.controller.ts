@@ -1,6 +1,6 @@
 import { Request, Response } from 'express'
 import { getRepository } from 'typeorm'
-import { User } from 'src/entities/User'
+import { User } from '@database/entities/User.entity'
 import { validate } from 'class-validator';
 import IAuthorizedUser from '../interfaces/AuthorizedUser.interface'
 

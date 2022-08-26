@@ -1,4 +1,4 @@
-import { User } from "@entities/User";
+import { User } from "@database/entities/User.entity";
 import { Request, Response } from "express";
 import { resolve } from 'path'
 import { unlink } from 'fs'

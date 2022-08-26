@@ -1,5 +1,5 @@
-import { Post } from "@entities/Post";
-import { User } from "@entities/User";
+import { Post } from "@database/entities/Post.entity";
+import { User } from "@database/entities/User.entity";
 import { Request, Response } from "express";
 import { getRepository } from "typeorm";
 import IAuthorizedUser from '../interfaces/AuthorizedUser.interface'
