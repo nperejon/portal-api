@@ -3,7 +3,24 @@
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/Nick3n/portal-api)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/Nick3n/portal-api)
 
-## Tecnologias
+### Tabela de conteúdos
+=================
+
+ - 🎯 Objetivo
+ - 📑 O que é uma API?
+ - 🛠 Tecnologias
+ - 📃 Funcionalidades
+ - 📃 Alterações Futuras
+ - 💻 Rotas
+ - 📚 Referências
+ 
+## 🎯 Objetivo
+O objetivo deste repositório é simular a API de um portal de notícias, através dele outra plataforma fará requisições às suas rotas e obterá informações sobre pontos principais da aplicação, como, por exemplo, notícias, comentários e usuários.
+
+## O que é uma API?
+A palavra API é uma sigla que significa _Application Programming Interface_ para se refer a uma interface de programa da aplicação que se comunica com outras plataformas. Ela torna possível de forma facilitada o contato com o conteúdo de uma aplicação em um determinado formato.
+
+## 🛠 Tecnologias
 - Node Js
 - TypeScript
 - Express
@@ -11,7 +28,7 @@
 
 ---
 
-## Funcionalidades
+## 📃 Funcionalidades
 
 - [x] Listagem de usuários
 - [x] Listagem de usuário único
@@ -31,7 +48,7 @@
 - [ ] Criação de comentário para notícia
 - [ ] Remoção de comentário de notícia
 
-## Alterações Futuras
+## 📃 Alterações Futuras
 - [ ] Remover regras de negócio das classes de controladores
 - [ ] Criação de classes para entidades do negócio
 - [ ] Injeção de dependência em classes de roteadores
@@ -39,7 +56,7 @@
 
 ---
 
-## Routes
+## 💻 Rotas
 ### Users
 | Type | Route |
 |---|---|
