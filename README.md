@@ -17,7 +17,7 @@
 ## 🎯 Objetivo
 O objetivo deste repositório é simular a API de um portal de notícias, através dele outra plataforma fará requisições às suas rotas e obterá informações sobre pontos principais da aplicação, como, por exemplo, notícias, comentários e usuários.
 
-## O que é uma API?
+## 📑 O que é uma API?
 A palavra API é uma sigla que significa _Application Programming Interface_ para se refer a uma interface de programa da aplicação que se comunica com outras plataformas. Ela torna possível de forma facilitada o contato com o conteúdo de uma aplicação em um determinado formato.
 
 ## 🛠 Tecnologias
