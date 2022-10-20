@@ -1,5 +1,4 @@
 # API de Portal de Notícias
-![GitHub](https://img.shields.io/github/license/Nick3n/portal-api)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/Nick3n/portal-api)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/Nick3n/portal-api)
 
