@@ -24,11 +24,7 @@ export class Post {
     @Length(15, 500, { message: 'The content must be at least 15 but not longer than 100 characters' })
     content: string
 
-    @Column({ 
-        type: "text", 
-        array: true,
-        default: {}
-    })
+    @Column("simple-array")
     tags: string[];
 
     @ManyToOne(() => User, user => user.posts)

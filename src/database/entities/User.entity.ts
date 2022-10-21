@@ -52,7 +52,7 @@ export class User {
 
     @OneToMany(() => Post, post => post.author, {
         onDelete: 'CASCADE',
-      })
+    })
     posts: Post[];
 
     @CreateDateColumn({type: "timestamp"})
